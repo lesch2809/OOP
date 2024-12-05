@@ -15,11 +15,12 @@ namespace dice
         public dice()
         {
             InitializeComponent();
+            
         }
-
+        Wuerfel w = new Wuerfel();
         private void button1_Click(object sender, EventArgs e)
         {
-            Wuerfel w = new Wuerfel();
+            
             num.Text = Convert.ToString(w.Werfen());
             numold.Text = Convert.ToString(w.LetzterWurf);
             

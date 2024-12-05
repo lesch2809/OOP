@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rect", "Rect\Rect.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dice", "dice\dice.csproj", "{9756E3BA-D265-4BD7-8DCB-E3916C7B53BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wayToMoon", "wayToMoon\wayToMoon.csproj", "{E637425D-0B9D-43DA-9790-170E5D8DC1A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9756E3BA-D265-4BD7-8DCB-E3916C7B53BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9756E3BA-D265-4BD7-8DCB-E3916C7B53BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9756E3BA-D265-4BD7-8DCB-E3916C7B53BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E637425D-0B9D-43DA-9790-170E5D8DC1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E637425D-0B9D-43DA-9790-170E5D8DC1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E637425D-0B9D-43DA-9790-170E5D8DC1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E637425D-0B9D-43DA-9790-170E5D8DC1A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
