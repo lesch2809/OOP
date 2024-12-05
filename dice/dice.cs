@@ -8,18 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HelloWorld
+namespace dice
 {
-    public partial class Project1 : Form
+    public partial class dice : Form
     {
-        public Project1()
+        public dice()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello, World!");
+            Wuerfel w = new Wuerfel();
+            num.Text = Convert.ToString(w.Werfen());
+            numold.Text = Convert.ToString(w.LetzterWurf);
+            
         }
     }
 }

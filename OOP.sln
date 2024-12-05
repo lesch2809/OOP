@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kontakt", "OOP\kontakt.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{58A0CD39-93F2-44A5-BBF3-4684AC6DF9A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rect", "Rect\Rect.csproj", "{FD4E66F1-05E6-41F3-8D42-45D88588BC00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dice", "dice\dice.csproj", "{9756E3BA-D265-4BD7-8DCB-E3916C7B53BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{58A0CD39-93F2-44A5-BBF3-4684AC6DF9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58A0CD39-93F2-44A5-BBF3-4684AC6DF9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58A0CD39-93F2-44A5-BBF3-4684AC6DF9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4E66F1-05E6-41F3-8D42-45D88588BC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4E66F1-05E6-41F3-8D42-45D88588BC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4E66F1-05E6-41F3-8D42-45D88588BC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4E66F1-05E6-41F3-8D42-45D88588BC00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9756E3BA-D265-4BD7-8DCB-E3916C7B53BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9756E3BA-D265-4BD7-8DCB-E3916C7B53BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9756E3BA-D265-4BD7-8DCB-E3916C7B53BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9756E3BA-D265-4BD7-8DCB-E3916C7B53BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
