@@ -25,5 +25,15 @@ namespace dice
             numold.Text = Convert.ToString(w.LetzterWurf);
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            foreach (int wuerfe in w.AlleWuerfe)
+            {
+                textBox1.Text += wuerfe;   
+            }
+            
+        }
     }
 }
