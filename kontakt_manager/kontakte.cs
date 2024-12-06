@@ -8,15 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AutoDrive
+namespace kontakt_manager
 {
-    public partial class Form1 : Form
+    public partial class kontakte : Form
     {
-        public Form1()
+        public kontakte()
         {
             InitializeComponent();
         }
 
-        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

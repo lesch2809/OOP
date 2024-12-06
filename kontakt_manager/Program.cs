@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AutoDrive
+namespace kontakt_manager
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace AutoDrive
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new autoForm());
+            Application.Run(new kontakte());
         }
     }
 }

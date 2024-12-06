@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D5808C78-ED29-482B-8143-036C3016B5F1}</ProjectGuid>
+    <ProjectGuid>{F8BD065E-CCAD-42CA-9F4B-8B5ECBC1AE2D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>AutoDrive</RootNamespace>
-    <AssemblyName>AutoDrive</AssemblyName>
+    <RootNamespace>kontakt_manager</RootNamespace>
+    <AssemblyName>kontakt_manager</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Auto.cs" />
-    <Compile Include="autoForm.cs">
+    <Compile Include="kontakte.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="autoForm.Designer.cs">
-      <DependentUpon>autoForm.cs</DependentUpon>
+    <Compile Include="kontakte.Designer.cs">
+      <DependentUpon>kontakte.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="autoForm.resx">
-      <DependentUpon>autoForm.cs</DependentUpon>
+    <EmbeddedResource Include="kontakte.resx">
+      <DependentUpon>kontakte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
