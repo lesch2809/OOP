@@ -17,6 +17,7 @@ namespace dice
             InitializeComponent();
             
         }
+
         Wuerfel w = new Wuerfel();
         private void button1_Click(object sender, EventArgs e)
         {
@@ -34,6 +35,11 @@ namespace dice
                 textBox1.Text += wuerfe;   
             }
             
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Wuerfel w = new Wuerfel();
         }
     }
 }

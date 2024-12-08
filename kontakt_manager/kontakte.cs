@@ -12,9 +12,11 @@ namespace kontakt_manager
 {
     public partial class kontakte : Form
     {
+        ContactList contactList = new ContactList();
         public kontakte()
         {
             InitializeComponent();
+            dgvContacts.DataSource = contactList.Contacts;
         }
 
         
