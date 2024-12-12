@@ -30,6 +30,9 @@ namespace kontakt_manager
             {
                 throw new Exception("Phone number is empty");
             }
+            c.Mail = textBox_mail.Text;
+            c.Name = textBox_name.Text;
+            c.Phone = textBox_phone.Text;
         }
     }
 }

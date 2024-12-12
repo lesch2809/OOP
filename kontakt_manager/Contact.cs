@@ -15,17 +15,24 @@ namespace kontakt_manager
         public string Name
         {
             get { return name; }
+            set { name = value; }
 
         }
         public string Mail
         {
             get { return mail; }
+            set { mail = value; }
 
         }
         public string Phone
         {
             get { return phone; }
+            set { phone = value; }
 
+        }
+        public void addToList()
+        {
+            Contacts.Add(this);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace kontakt_manager
 {
     public class ContactList
     {
-        BindingList<Contact> Contacts = new BindingList<Contact>();
+        public BindingList<Contact> Contacts = new BindingList<Contact>();
 
 
         public void Clear()
