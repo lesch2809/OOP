@@ -136,6 +136,7 @@
             this.import_button.TabIndex = 2;
             this.import_button.Text = "Import CSV";
             this.import_button.UseVisualStyleBackColor = true;
+            this.import_button.Click += new System.EventHandler(this.import_button_Click);
             // 
             // export_button
             // 
@@ -145,6 +146,7 @@
             this.export_button.TabIndex = 3;
             this.export_button.Text = "Export CSV";
             this.export_button.UseVisualStyleBackColor = true;
+            this.export_button.Click += new System.EventHandler(this.export_button_Click);
             // 
             // dataGridView1
             // 
