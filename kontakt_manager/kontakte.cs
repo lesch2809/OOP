@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Contracts;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,7 @@ namespace kontakt_manager
             c.Mail = textBox_mail.Text;
             c.Name = textBox_name.Text;
             c.Phone = textBox_phone.Text;
+            contactList.addToList(c);
         }
     }
 }

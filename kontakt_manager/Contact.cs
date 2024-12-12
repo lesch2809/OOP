@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,9 +31,7 @@ namespace kontakt_manager
             set { phone = value; }
 
         }
-        public void addToList()
-        {
-            Contacts.Add(this);
-        }
+        
     }
 }
+

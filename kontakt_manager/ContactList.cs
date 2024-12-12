@@ -10,8 +10,10 @@ namespace kontakt_manager
 {
     public class ContactList
     {
-        public BindingList<Contact> Contacts = new BindingList<Contact>();
 
+       BindingList<Contact> Contacts = new BindingList<Contact>();
+        
+        
 
         public void Clear()
         {
@@ -26,6 +28,10 @@ namespace kontakt_manager
         {
 
         }
+        public void addToList(Contact c)
+        {
+            Contacts.Add(c);
 
+        }
     }
 }
