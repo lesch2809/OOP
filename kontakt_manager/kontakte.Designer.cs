@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.create_button = new System.Windows.Forms.Button();
             this.textBox_phone = new System.Windows.Forms.TextBox();
             this.textBox_mail = new System.Windows.Forms.TextBox();
             this.textBox_name = new System.Windows.Forms.TextBox();
@@ -39,7 +40,6 @@
             this.import_button = new System.Windows.Forms.Button();
             this.export_button = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.create_button = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -59,6 +59,16 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Neuer Kontakt";
+            // 
+            // create_button
+            // 
+            this.create_button.Location = new System.Drawing.Point(702, 243);
+            this.create_button.Name = "create_button";
+            this.create_button.Size = new System.Drawing.Size(174, 43);
+            this.create_button.TabIndex = 5;
+            this.create_button.Text = "Erstellen";
+            this.create_button.UseVisualStyleBackColor = true;
+            this.create_button.Click += new System.EventHandler(this.create_button_Click);
             // 
             // textBox_phone
             // 
@@ -116,6 +126,7 @@
             this.delet_button.TabIndex = 1;
             this.delet_button.Text = "Liste Löschen";
             this.delet_button.UseVisualStyleBackColor = true;
+            this.delet_button.Click += new System.EventHandler(this.delet_button_Click);
             // 
             // import_button
             // 
@@ -144,16 +155,6 @@
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(840, 283);
             this.dataGridView1.TabIndex = 4;
-            // 
-            // create_button
-            // 
-            this.create_button.Location = new System.Drawing.Point(702, 243);
-            this.create_button.Name = "create_button";
-            this.create_button.Size = new System.Drawing.Size(174, 43);
-            this.create_button.TabIndex = 5;
-            this.create_button.Text = "Erstellen";
-            this.create_button.UseVisualStyleBackColor = true;
-            this.create_button.Click += new System.EventHandler(this.create_button_Click);
             // 
             // kontakte
             // 
